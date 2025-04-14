@@ -19,7 +19,7 @@ public:
   SimpleSocket(int domain, int service, int protocol, int port,
                u_long interface);
   // Virtual function to connect to a network
-  virtual int connect_to_network(int sock, struct sockaddr_in address);
+  virtual int connect_to_network(int sock, struct sockaddr_in address) = 0;
   void test_connection(int item_to_test);
   // Getters
   inline struct sockaddr_in get_address() const { return address; }
