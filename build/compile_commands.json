@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/elias/projects/myserver/build",
+  "command": "/usr/bin/c++  -I/Users/elias/projects/myserver/include -std=gnu++17 -o CMakeFiles/MyServer.dir/main.cpp.o -c /Users/elias/projects/myserver/main.cpp",
+  "file": "/Users/elias/projects/myserver/main.cpp",
+  "output": "CMakeFiles/MyServer.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/elias/projects/myserver/build",
+  "command": "/usr/bin/c++  -I/Users/elias/projects/myserver/include -std=gnu++17 -o CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o -c /Users/elias/projects/myserver/Networking/SimpleSocket.cpp",
+  "file": "/Users/elias/projects/myserver/Networking/SimpleSocket.cpp",
+  "output": "CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+/Users/elias/projects/myserver/build/CMakeFiles/MyServer.dir
+/Users/elias/projects/myserver/build/CMakeFiles/edit_cache.dir
+/Users/elias/projects/myserver/build/CMakeFiles/rebuild_cache.dir

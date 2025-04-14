@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/MyServer.dir/main.cpp.o CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o -o MyServer
