@@ -86,33 +86,113 @@ CMakeFiles/MyServer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyServer.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elias/projects/myserver/main.cpp -o CMakeFiles/MyServer.dir/main.cpp.s
 
-CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o: CMakeFiles/MyServer.dir/flags.make
-CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o: /Users/elias/projects/myserver/Networking/SimpleSocket.cpp
-CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o: CMakeFiles/MyServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/elias/projects/myserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o -MF CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o.d -o CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o -c /Users/elias/projects/myserver/Networking/SimpleSocket.cpp
+CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.o: CMakeFiles/MyServer.dir/flags.make
+CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.o: /Users/elias/projects/myserver/Networking/Sockets/SimpleSocket.cpp
+CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.o: CMakeFiles/MyServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/elias/projects/myserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.o -MF CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.o.d -o CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.o -c /Users/elias/projects/myserver/Networking/Sockets/SimpleSocket.cpp
 
-CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/elias/projects/myserver/Networking/SimpleSocket.cpp > CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.i
+CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/elias/projects/myserver/Networking/Sockets/SimpleSocket.cpp > CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.i
 
-CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elias/projects/myserver/Networking/SimpleSocket.cpp -o CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.s
+CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elias/projects/myserver/Networking/Sockets/SimpleSocket.cpp -o CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.s
+
+CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.o: CMakeFiles/MyServer.dir/flags.make
+CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.o: /Users/elias/projects/myserver/Networking/Sockets/BindingSocket.cpp
+CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.o: CMakeFiles/MyServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/elias/projects/myserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.o -MF CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.o.d -o CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.o -c /Users/elias/projects/myserver/Networking/Sockets/BindingSocket.cpp
+
+CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/elias/projects/myserver/Networking/Sockets/BindingSocket.cpp > CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.i
+
+CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elias/projects/myserver/Networking/Sockets/BindingSocket.cpp -o CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.s
+
+CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.o: CMakeFiles/MyServer.dir/flags.make
+CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.o: /Users/elias/projects/myserver/Networking/Sockets/ListeningSocket.cpp
+CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.o: CMakeFiles/MyServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/elias/projects/myserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.o -MF CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.o.d -o CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.o -c /Users/elias/projects/myserver/Networking/Sockets/ListeningSocket.cpp
+
+CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/elias/projects/myserver/Networking/Sockets/ListeningSocket.cpp > CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.i
+
+CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elias/projects/myserver/Networking/Sockets/ListeningSocket.cpp -o CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.s
+
+CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.o: CMakeFiles/MyServer.dir/flags.make
+CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.o: /Users/elias/projects/myserver/Networking/Sockets/ConnectingSocket.cpp
+CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.o: CMakeFiles/MyServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/elias/projects/myserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.o -MF CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.o.d -o CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.o -c /Users/elias/projects/myserver/Networking/Sockets/ConnectingSocket.cpp
+
+CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/elias/projects/myserver/Networking/Sockets/ConnectingSocket.cpp > CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.i
+
+CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elias/projects/myserver/Networking/Sockets/ConnectingSocket.cpp -o CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.s
+
+CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.o: CMakeFiles/MyServer.dir/flags.make
+CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.o: /Users/elias/projects/myserver/Networking/Servers/SimpleServer.cpp
+CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.o: CMakeFiles/MyServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/elias/projects/myserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.o -MF CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.o.d -o CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.o -c /Users/elias/projects/myserver/Networking/Servers/SimpleServer.cpp
+
+CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/elias/projects/myserver/Networking/Servers/SimpleServer.cpp > CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.i
+
+CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elias/projects/myserver/Networking/Servers/SimpleServer.cpp -o CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.s
+
+CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.o: CMakeFiles/MyServer.dir/flags.make
+CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.o: /Users/elias/projects/myserver/Networking/Servers/TestServer.cpp
+CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.o: CMakeFiles/MyServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/elias/projects/myserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.o -MF CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.o.d -o CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.o -c /Users/elias/projects/myserver/Networking/Servers/TestServer.cpp
+
+CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/elias/projects/myserver/Networking/Servers/TestServer.cpp > CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.i
+
+CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elias/projects/myserver/Networking/Servers/TestServer.cpp -o CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.s
 
 # Object files for target MyServer
 MyServer_OBJECTS = \
 "CMakeFiles/MyServer.dir/main.cpp.o" \
-"CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o"
+"CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.o" \
+"CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.o" \
+"CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.o" \
+"CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.o" \
+"CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.o" \
+"CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.o"
 
 # External object files for target MyServer
 MyServer_EXTERNAL_OBJECTS =
 
 MyServer: CMakeFiles/MyServer.dir/main.cpp.o
-MyServer: CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o
+MyServer: CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.o
+MyServer: CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.o
+MyServer: CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.o
+MyServer: CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.o
+MyServer: CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.o
+MyServer: CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.o
 MyServer: CMakeFiles/MyServer.dir/build.make
 MyServer: CMakeFiles/MyServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/elias/projects/myserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/elias/projects/myserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable MyServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -129,29 +129,149 @@ MyServer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/build
 .PHONY : MyServer/fast
 
-Networking/SimpleSocket.o: Networking/SimpleSocket.cpp.o
-.PHONY : Networking/SimpleSocket.o
+Networking/Servers/SimpleServer.o: Networking/Servers/SimpleServer.cpp.o
+.PHONY : Networking/Servers/SimpleServer.o
 
 # target to build an object file
-Networking/SimpleSocket.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.o
-.PHONY : Networking/SimpleSocket.cpp.o
+Networking/Servers/SimpleServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.o
+.PHONY : Networking/Servers/SimpleServer.cpp.o
 
-Networking/SimpleSocket.i: Networking/SimpleSocket.cpp.i
-.PHONY : Networking/SimpleSocket.i
+Networking/Servers/SimpleServer.i: Networking/Servers/SimpleServer.cpp.i
+.PHONY : Networking/Servers/SimpleServer.i
 
 # target to preprocess a source file
-Networking/SimpleSocket.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.i
-.PHONY : Networking/SimpleSocket.cpp.i
+Networking/Servers/SimpleServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.i
+.PHONY : Networking/Servers/SimpleServer.cpp.i
 
-Networking/SimpleSocket.s: Networking/SimpleSocket.cpp.s
-.PHONY : Networking/SimpleSocket.s
+Networking/Servers/SimpleServer.s: Networking/Servers/SimpleServer.cpp.s
+.PHONY : Networking/Servers/SimpleServer.s
 
 # target to generate assembly for a file
-Networking/SimpleSocket.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/SimpleSocket.cpp.s
-.PHONY : Networking/SimpleSocket.cpp.s
+Networking/Servers/SimpleServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Servers/SimpleServer.cpp.s
+.PHONY : Networking/Servers/SimpleServer.cpp.s
+
+Networking/Servers/TestServer.o: Networking/Servers/TestServer.cpp.o
+.PHONY : Networking/Servers/TestServer.o
+
+# target to build an object file
+Networking/Servers/TestServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.o
+.PHONY : Networking/Servers/TestServer.cpp.o
+
+Networking/Servers/TestServer.i: Networking/Servers/TestServer.cpp.i
+.PHONY : Networking/Servers/TestServer.i
+
+# target to preprocess a source file
+Networking/Servers/TestServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.i
+.PHONY : Networking/Servers/TestServer.cpp.i
+
+Networking/Servers/TestServer.s: Networking/Servers/TestServer.cpp.s
+.PHONY : Networking/Servers/TestServer.s
+
+# target to generate assembly for a file
+Networking/Servers/TestServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Servers/TestServer.cpp.s
+.PHONY : Networking/Servers/TestServer.cpp.s
+
+Networking/Sockets/BindingSocket.o: Networking/Sockets/BindingSocket.cpp.o
+.PHONY : Networking/Sockets/BindingSocket.o
+
+# target to build an object file
+Networking/Sockets/BindingSocket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.o
+.PHONY : Networking/Sockets/BindingSocket.cpp.o
+
+Networking/Sockets/BindingSocket.i: Networking/Sockets/BindingSocket.cpp.i
+.PHONY : Networking/Sockets/BindingSocket.i
+
+# target to preprocess a source file
+Networking/Sockets/BindingSocket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.i
+.PHONY : Networking/Sockets/BindingSocket.cpp.i
+
+Networking/Sockets/BindingSocket.s: Networking/Sockets/BindingSocket.cpp.s
+.PHONY : Networking/Sockets/BindingSocket.s
+
+# target to generate assembly for a file
+Networking/Sockets/BindingSocket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/BindingSocket.cpp.s
+.PHONY : Networking/Sockets/BindingSocket.cpp.s
+
+Networking/Sockets/ConnectingSocket.o: Networking/Sockets/ConnectingSocket.cpp.o
+.PHONY : Networking/Sockets/ConnectingSocket.o
+
+# target to build an object file
+Networking/Sockets/ConnectingSocket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.o
+.PHONY : Networking/Sockets/ConnectingSocket.cpp.o
+
+Networking/Sockets/ConnectingSocket.i: Networking/Sockets/ConnectingSocket.cpp.i
+.PHONY : Networking/Sockets/ConnectingSocket.i
+
+# target to preprocess a source file
+Networking/Sockets/ConnectingSocket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.i
+.PHONY : Networking/Sockets/ConnectingSocket.cpp.i
+
+Networking/Sockets/ConnectingSocket.s: Networking/Sockets/ConnectingSocket.cpp.s
+.PHONY : Networking/Sockets/ConnectingSocket.s
+
+# target to generate assembly for a file
+Networking/Sockets/ConnectingSocket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/ConnectingSocket.cpp.s
+.PHONY : Networking/Sockets/ConnectingSocket.cpp.s
+
+Networking/Sockets/ListeningSocket.o: Networking/Sockets/ListeningSocket.cpp.o
+.PHONY : Networking/Sockets/ListeningSocket.o
+
+# target to build an object file
+Networking/Sockets/ListeningSocket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.o
+.PHONY : Networking/Sockets/ListeningSocket.cpp.o
+
+Networking/Sockets/ListeningSocket.i: Networking/Sockets/ListeningSocket.cpp.i
+.PHONY : Networking/Sockets/ListeningSocket.i
+
+# target to preprocess a source file
+Networking/Sockets/ListeningSocket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.i
+.PHONY : Networking/Sockets/ListeningSocket.cpp.i
+
+Networking/Sockets/ListeningSocket.s: Networking/Sockets/ListeningSocket.cpp.s
+.PHONY : Networking/Sockets/ListeningSocket.s
+
+# target to generate assembly for a file
+Networking/Sockets/ListeningSocket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/ListeningSocket.cpp.s
+.PHONY : Networking/Sockets/ListeningSocket.cpp.s
+
+Networking/Sockets/SimpleSocket.o: Networking/Sockets/SimpleSocket.cpp.o
+.PHONY : Networking/Sockets/SimpleSocket.o
+
+# target to build an object file
+Networking/Sockets/SimpleSocket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.o
+.PHONY : Networking/Sockets/SimpleSocket.cpp.o
+
+Networking/Sockets/SimpleSocket.i: Networking/Sockets/SimpleSocket.cpp.i
+.PHONY : Networking/Sockets/SimpleSocket.i
+
+# target to preprocess a source file
+Networking/Sockets/SimpleSocket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.i
+.PHONY : Networking/Sockets/SimpleSocket.cpp.i
+
+Networking/Sockets/SimpleSocket.s: Networking/Sockets/SimpleSocket.cpp.s
+.PHONY : Networking/Sockets/SimpleSocket.s
+
+# target to generate assembly for a file
+Networking/Sockets/SimpleSocket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyServer.dir/build.make CMakeFiles/MyServer.dir/Networking/Sockets/SimpleSocket.cpp.s
+.PHONY : Networking/Sockets/SimpleSocket.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,9 +306,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MyServer"
-	@echo "... Networking/SimpleSocket.o"
-	@echo "... Networking/SimpleSocket.i"
-	@echo "... Networking/SimpleSocket.s"
+	@echo "... Networking/Servers/SimpleServer.o"
+	@echo "... Networking/Servers/SimpleServer.i"
+	@echo "... Networking/Servers/SimpleServer.s"
+	@echo "... Networking/Servers/TestServer.o"
+	@echo "... Networking/Servers/TestServer.i"
+	@echo "... Networking/Servers/TestServer.s"
+	@echo "... Networking/Sockets/BindingSocket.o"
+	@echo "... Networking/Sockets/BindingSocket.i"
+	@echo "... Networking/Sockets/BindingSocket.s"
+	@echo "... Networking/Sockets/ConnectingSocket.o"
+	@echo "... Networking/Sockets/ConnectingSocket.i"
+	@echo "... Networking/Sockets/ConnectingSocket.s"
+	@echo "... Networking/Sockets/ListeningSocket.o"
+	@echo "... Networking/Sockets/ListeningSocket.i"
+	@echo "... Networking/Sockets/ListeningSocket.s"
+	@echo "... Networking/Sockets/SimpleSocket.o"
+	@echo "... Networking/Sockets/SimpleSocket.i"
+	@echo "... Networking/Sockets/SimpleSocket.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

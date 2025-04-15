@@ -8,10 +8,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(${PROJECT_NAME}
   main.cpp
-  Networking/SimpleSocket.cpp
-)
-
-target_include_directories(${PROJECT_NAME} 
-  PRIVATE 
-  include
+  Networking/Sockets/SimpleSocket.cpp
+  Networking/Sockets/BindingSocket.cpp
+  Networking/Sockets/ListeningSocket.cpp
+  Networking/Sockets/ConnectingSocket.cpp
+  Networking/Servers/SimpleServer.cpp
+  Networking/Servers/TestServer.cpp
 )

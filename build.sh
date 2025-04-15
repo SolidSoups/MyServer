@@ -2,6 +2,9 @@
 
 set -e  # Exit immediately on error
 
+# clear the caches
+rm -rf build
+
 # Create build directory if it doesn't exist
 mkdir -p build
 
